@@ -1,6 +1,6 @@
 <?php
 
-namespace Tots\Blog\Http\Controllers\Posts;
+namespace Tots\Device\Http\Controllers\Devices;
 
 use Illuminate\Http\Request;
 use Tots\Device\Models\TotsDevice;
