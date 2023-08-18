@@ -17,4 +17,9 @@ class TotsDeviceRepository
         $device->save();
         return $device;
     }
+
+    public function removeByUserId($userId)
+    {
+        TotsDevice::where('user_id', $userId)->delete();
+    }
 }
