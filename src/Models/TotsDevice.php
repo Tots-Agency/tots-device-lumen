@@ -22,6 +22,8 @@ use Tots\Auth\Models\TotsUser;
 class TotsDevice extends Model
 {
     protected $table = 'tots_device';
+
+    protected $fillable = ['device_token', 'device_type', 'app_version', 'device_model', 'language_id'];
     
     //protected $casts = ['data' => 'array'];
     /**
